@@ -47,7 +47,7 @@
         <div class="row right-column" style="margin-top: 12px;">
           <div class="item" *ngFor="let item of displayedItems">
 
-            <img  [src]="item.display_img_url||'https://placehold.co/600x400' " alt="Item Image" />
+            <img  [src]="item.display_img_url||'https://placehold.co/600x400' " class="productImg" alt="Item Image" />
 
             <h4>{{ item.name }}</h4>
             <p>Points: {{ item.points }}</p>

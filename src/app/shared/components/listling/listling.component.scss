@@ -69,9 +69,14 @@
 
 .item img {
   max-width: 100%;
-  height: auto;
+  // height: auto;
   margin-bottom: 1rem;
   border-radius: 4px;
+}
+
+.productImg{
+  height: 200px;
+  object-fit: cover;
 }
 
 .item .out-of-stock {
