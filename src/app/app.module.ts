@@ -25,7 +25,7 @@ import { MatSelectModule } from '@angular/material/select';
     AppComponent,
     HeaderComponent,
     FooterComponent,
-    ListlingComponent
+    ListlingComponent,
   ],
   imports: [
     BrowserModule,
