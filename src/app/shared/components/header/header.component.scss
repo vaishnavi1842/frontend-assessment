@@ -1,0 +1,29 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: hsl(251, 78%, 30%);
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  .header .logo {
+    font-size: 1rem;
+    font-weight: bold;
+    
+  }
+  
+  .header .icons {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .header .icons .icon {
+    font-size: 1.25rem;
+    cursor: pointer;
+  }
+  
+  .logo{
+    // height: 50px;
+    width: 50px;
+  }
